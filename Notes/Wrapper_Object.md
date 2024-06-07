@@ -1,0 +1,1 @@
+ In JavaScript, wrapper objects are automatically created when you access properties or methods of primitive data type variables. This process is known as "auto-boxing" or "implicit coercion".
