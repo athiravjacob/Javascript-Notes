@@ -1,26 +1,26 @@
 //Push- add elements 
-// let array = [];
-// array.push(1,2,3,4)
-// console.log(array)
+let array = [];
+array.push(1,2,3,4)
+console.log(array)
 
 //unshift -add elements to the begining of an array
-// array.unshift(0)
-// console.log(array)
+array.unshift(0)
+console.log(array)
 
 // splice array.splice(start,deletecount,itemtoadd,itemtoadd...)
-// let newArray=array.splice(3,2,5,6,7)
-// console.log(array)
-// console.log(newArray)
+let newArray=array.splice(3,2,5,6,7)
+console.log(array)
+console.log(newArray)
 
-// let elem1 = newArray.splice(0,1)[0]
+let elem1 = newArray.splice(0,1)[0]
 
-// newArray.splice(1,0,elem1)
-// console.log(newArray)
+newArray.splice(1,0,elem1)
+console.log(newArray)
 
 //pop delete last element
-// let delElem=newArray.pop()
-// console.log(newArray)
-// console.log(delElem)
+let delElem=newArray.pop()
+console.log(newArray)
+console.log(delElem)
 
 
 //shift remove first elem
